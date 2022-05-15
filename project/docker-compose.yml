@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  my_front:
+    image: maciresylla/frontend
+    container_name: new_front
+  my_back:
+    image: maciresylla/backend
+    container_name: new_back
